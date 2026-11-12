@@ -1,3 +1,0 @@
-# Install the released SDK package from PyPI.
-openai-agents[docker]==0.22.1
-rich>=13.1.0,<15
