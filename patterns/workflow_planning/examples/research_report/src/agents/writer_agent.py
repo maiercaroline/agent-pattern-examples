@@ -40,7 +40,7 @@ class ReportData(BaseModel):
 writer_agent = Agent(
     name="WriterAgent",
     instructions=PROMPT,
-    model="gpt-5-mini",
+    model="gpt-6-luna",
     model_settings=ModelSettings(reasoning=Reasoning(effort="medium")),
     output_type=ReportData,
 )

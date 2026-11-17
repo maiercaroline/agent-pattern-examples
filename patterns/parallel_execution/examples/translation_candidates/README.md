@@ -32,13 +32,13 @@ python -m src.main
 
 The CLI reads the API key from the environment. Set it as shown above. Live calls incur API charges.
 
-The Python source preserves the upstream workflow and model settings. The notebook's `RUN_API` and `AGENT_MODEL` settings apply only to the notebook. Check the model configured in `src/` against your account's access.
+The CLI adapts the upstream workflow and defaults to `gpt-6-luna`. The notebook's `RUN_API` and `AGENT_MODEL` settings apply only to the notebook. Check the model configured in `src/` against your account's access.
 
 ## Notebook and CLI differences
 
 The [English notebook](notebooks/parallel_execution-en.ipynb) walks through this pattern cell by cell in local Jupyter or Colab. It defaults to `RUN_API=False`. The `.env.local` file is optional. For live calls in Colab, the notebook reads `OPENAI_API_KEY` from Secrets if the environment has no key. See the [notebook instructions](notebooks/README.md). The CLI makes live calls when run with the environment configured.
 
-Set `AGENT_MODEL` to choose the notebook model (default `gpt-5.6-luna`). The CLI uses the model settings in `src/` independently of this variable.
+Set `AGENT_MODEL` to choose the notebook model (default `gpt-6-luna`). The CLI uses the model settings in `src/` independently of this variable.
 
 | Feature | CLI (`src/main.py`) | Notebook |
 |---|---|---|

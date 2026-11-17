@@ -47,7 +47,7 @@ class WorkflowEnvironmentTests(unittest.TestCase):
     def test_offline_needs_no_key_or_secret_access(self):
         with patch.dict('sys.modules', self.modules):
             for ns in loaders():
-                self.assertEqual(ns['load_environment'](run_api=False), 'gpt-5.6-luna')
+                self.assertEqual(ns['load_environment'](run_api=False), 'gpt-6-luna')
         self.userdata.get.assert_not_called()
         self.assertNotIn('OPENAI_API_KEY', os.environ)
 

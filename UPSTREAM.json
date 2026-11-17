@@ -30,25 +30,25 @@
       "local": "patterns/workflow_planning/examples/research_report/src/agents/planner_agent.py",
       "upstream": "examples/research_bot/agents/planner_agent.py",
       "upstream_sha256": "4e9e47656773850fb797018b71d775c6150a9b2629bd2cd31360ecaeb7cb5064",
-      "local_sha256": "71921fe4b616284f9e35ee6c801338adfc681844f0caf5d77d0b54b285628155",
+      "local_sha256": "edd65cee803f8e8a62713bc291ea2fd09186aa9392495ffdb90b8d74f3e18c13",
       "modified": true,
-      "changes": "Added tutorial-oriented module documentation; runtime behavior is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md."
+      "changes": "Added tutorial-oriented module documentation; the orchestration is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md. Defaulted the model to gpt-6-luna."
     },
     {
       "local": "patterns/workflow_planning/examples/research_report/src/agents/search_agent.py",
       "upstream": "examples/research_bot/agents/search_agent.py",
       "upstream_sha256": "da06b3021972712fec6393d0bc01b5034d094c08de8ba6aa0d73704375bd3796",
-      "local_sha256": "123dc51e788c1b76fb89038270e8322c541ea03a2712b0dd3282ed37e376d82a",
+      "local_sha256": "ef1f8a76fe7465d9bc503e756c29c31be87390833342208b1d145982484cb420",
       "modified": true,
-      "changes": "Added tutorial-oriented module documentation; runtime behavior is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md."
+      "changes": "Added tutorial-oriented module documentation; the orchestration is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md. Defaulted the model to gpt-6-luna."
     },
     {
       "local": "patterns/workflow_planning/examples/research_report/src/agents/writer_agent.py",
       "upstream": "examples/research_bot/agents/writer_agent.py",
       "upstream_sha256": "796f2df89984034a8149021da421d19639c6255df14f45f38d89b767781cb2ed",
-      "local_sha256": "3dff342ee2bb1f8f29cbea72d3e9df09d25ae39f13a96f7c06a23ebb0ae8da55",
+      "local_sha256": "7b08fb94af3e8e0d368d153132cc7c2686365cae5533648a8314729ac7155ba7",
       "modified": true,
-      "changes": "Added tutorial-oriented module documentation; runtime behavior is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md."
+      "changes": "Added tutorial-oriented module documentation; the orchestration is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md. Defaulted the model to gpt-6-luna."
     },
     {
       "local": "patterns/workflow_planning/examples/research_report/src/main.py",
@@ -88,41 +88,41 @@
       "local": "patterns/triage_handoff/examples/language_routing/src/main.py",
       "upstream": "examples/agent_patterns/routing.py",
       "upstream_sha256": "b9b57061f5238335743ca54137df0210fd07f146613afb3783bf2a4c5650a71b",
-      "local_sha256": "50354a1234d36aec98aba909764a7fcd04d64443769bf022c3089a16499ce4f8",
+      "local_sha256": "30bd4fc3863f3c28e55f9b03c3b0b1d837f203678240fef0a8f065095e76107b",
       "modified": true,
-      "changes": "Replaced automatic input helpers with input() and removed automatic-mode branches; interactive behavior retained; added tutorial-oriented module documentation; runtime behavior is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md."
+      "changes": "Replaced automatic input helpers with input() and removed automatic-mode branches; interactive behavior retained; added tutorial-oriented module documentation; the orchestration is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md. Defaulted the model to gpt-6-luna."
     },
     {
       "local": "patterns/parallel_execution/examples/translation_candidates/src/main.py",
       "upstream": "examples/agent_patterns/parallelization.py",
       "upstream_sha256": "b17a2e276e2c2d05c3bdf0f1eac2464d3dd78f64776c0f413b5ce509fcee251a",
-      "local_sha256": "c15d6498727e6226142d5456c03b1fe5281690c1da3d68d6522aa77b6d79d128",
+      "local_sha256": "11904446514aabbc6c059a0691e8903795eb612eb4f5101579ce846d23f4730e",
       "modified": true,
-      "changes": "Replaced automatic input helpers with input() and removed automatic-mode branches; interactive behavior retained; added tutorial-oriented module documentation; runtime behavior is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md."
+      "changes": "Replaced automatic input helpers with input() and removed automatic-mode branches; interactive behavior retained; added tutorial-oriented module documentation; the orchestration is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md. Defaulted the model to gpt-6-luna."
     },
     {
       "local": "patterns/retry_or_fallback/examples/transient_error_retry/src/main.py",
       "upstream": "examples/basic/retry.py",
       "upstream_sha256": "195aa4c0a99170055cdcbf6bfd6cc99e5a137e2db59e02a48a87033a18613914",
-      "local_sha256": "7bb5bf4312f4d7c4300e6d74e9df89ec9cfdd611002b29132e5aac2a3a82b530",
+      "local_sha256": "12a67f3388cc36c781dbad9be6f934c5f18e6a7a3f9029656ed7177e5d09113d",
       "modified": true,
-      "changes": "Added tutorial-oriented module documentation and flow comments; runtime behavior is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md."
+      "changes": "Added tutorial-oriented module documentation and flow comments; the orchestration is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md. Defaulted the model to gpt-6-luna."
     },
     {
       "local": "patterns/evaluator_optimiser/examples/story_refinement/src/main.py",
       "upstream": "examples/agent_patterns/llm_as_a_judge.py",
       "upstream_sha256": "cfa294e1df5cdf5f456ccb913aa0fbb4a83a10dcdb521e4affb3680d4e97490c",
-      "local_sha256": "677e385560aef2b41b6c3e1838a37a322c53dbeccd78b36a5004e6f8cdcfe937",
+      "local_sha256": "32cb4d76d20f9b5feaa2cbddb1c4c7711c81d506fd0267d51b37628fa857e890",
       "modified": true,
-      "changes": "Replaced automatic input helpers with input() and removed automatic-mode branches; interactive behavior retained; added tutorial-oriented module documentation; runtime behavior is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md."
+      "changes": "Replaced automatic input helpers with input() and removed automatic-mode branches; interactive behavior retained; added tutorial-oriented module documentation; the orchestration is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md. Defaulted the model to gpt-6-luna."
     },
     {
       "local": "patterns/sandboxed_agent/examples/workspace_inspection/src/main.py",
       "upstream": "examples/sandbox/basic.py",
       "upstream_sha256": "42d5af3d4f0b05ae877a25f8fc0c1aa52bd87fd83baf8b96a0f3d1c0cd3b8e2b",
-      "local_sha256": "358b3f00be853d56c06101a512067313ef5c709a2596e0fc34391d69f5dabdc8",
+      "local_sha256": "ea047f305fb8afcc66ebf5fa5d221947201e3a1ff98076ae17ca2b946c35f537",
       "modified": true,
-      "changes": "Updated local import and run instructions for the src.main layout and PyPI SDK installation; added tutorial-oriented module documentation and flow comments; runtime behavior is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md."
+      "changes": "Updated local import and run instructions for the src.main layout and PyPI SDK installation; added tutorial-oriented module documentation and flow comments; the orchestration is unchanged. Added copyright, MIT license, and pinned upstream source comments. Updated license notice reference to THIRD_PARTY_NOTICES.md. Defaulted the model to gpt-6-luna."
     },
     {
       "local": "patterns/sandboxed_agent/examples/workspace_inspection/src/workspace_shell.py",

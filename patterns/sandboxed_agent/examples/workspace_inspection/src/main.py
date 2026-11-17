@@ -247,7 +247,7 @@ async def main(
 if __name__ == "__main__":
     # Keep backend and model choices visible so readers can experiment from the CLI.
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", default="gpt-5.6-sol", help="Model name to use.")
+    parser.add_argument("--model", default="gpt-6-luna", help="Model name to use.")
     parser.add_argument(
         "--question", default=DEFAULT_QUESTION, help="Prompt to send to the agent."
     )

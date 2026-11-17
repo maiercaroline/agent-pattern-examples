@@ -40,7 +40,7 @@ Open an example's `notebooks/<pattern>-en.ipynb` and select the `Agent Pattern E
 - The default `RUN_API=False` builds agents and runs offline checks.
 - Set `RUN_API=True` in the setup cell to enable model calls in the guided exercises. API and web search calls may incur charges.
 - To run the standalone example near the end, separately change `run_api=False` to `True` in its invocation cell. The earlier `RUN_API` switch is independent.
-- `AGENT_MODEL` overrides the default `gpt-5.6-luna`. The sandbox has a separate `SANDBOX_MODEL` setting that defaults to `gpt-5.6-sol`.
+- `AGENT_MODEL` overrides the default `gpt-6-luna`. The sandbox has a separate `SANDBOX_MODEL` setting that defaults to `gpt-6-luna`.
 - Notebooks use `await Runner.run(...)` in Jupyter's existing event loop.
 - Clear all cell outputs and execution counts before committing.
 

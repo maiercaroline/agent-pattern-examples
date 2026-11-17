@@ -16,11 +16,13 @@ from agents import Agent, ItemHelpers, Runner, trace
 
 spanish_agent = Agent(
     name="spanish_agent",
+    model="gpt-6-luna",
     instructions="You translate the user's message to Spanish",
 )
 
 translation_picker = Agent(
     name="translation_picker",
+    model="gpt-6-luna",
     instructions="You pick the best Spanish translation from the given options.",
 )
 

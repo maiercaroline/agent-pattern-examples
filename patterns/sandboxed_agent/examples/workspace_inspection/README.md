@@ -32,7 +32,7 @@ python -m src.main --backend docker
 
 The CLI reads the API key from the environment. Set it as shown above. Live calls incur API charges.
 
-The Python source preserves the upstream workflow and model settings. The notebook's `RUN_API` switch and `SANDBOX_MODEL` setting are independent of the CLI. Check your access to the model configured in the source.
+The CLI adapts the upstream workflow and defaults to `gpt-6-luna`. The notebook's `RUN_API` switch and `SANDBOX_MODEL` setting are independent of the CLI. Check your access to the model configured in the source.
 
 Start the Docker daemon before running. The example creates the small files it needs. These commands use Docker. Modal requires additional dependencies and account setup.
 
@@ -40,7 +40,7 @@ Start the Docker daemon before running. The example creates the small files it n
 
 The [English notebook](notebooks/sandboxed_agent-en.ipynb) walks through this pattern cell by cell in local Jupyter or Colab. It defaults to `RUN_API=False`. The `.env.local` file is optional. For live calls in Colab, the notebook reads `OPENAI_API_KEY` from Secrets if the environment has no key. See the [notebook instructions](notebooks/README.md). The CLI makes live calls when run with the environment configured.
 
-Set `SANDBOX_MODEL` to choose the notebook's sandbox model (default `gpt-5.6-sol`). Use `--model` in the CLI.
+Set `SANDBOX_MODEL` to choose the notebook's sandbox model (default `gpt-6-luna`). Use `--model` in the CLI.
 
 | Feature | CLI (`src/main.py`) | Notebook |
 |---|---|---|

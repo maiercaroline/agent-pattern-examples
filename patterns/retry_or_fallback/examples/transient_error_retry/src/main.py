@@ -103,6 +103,7 @@ async def main() -> None:
 
     agent = Agent(
         name="Assistant",
+        model="gpt-6-luna",
         instructions="You are a concise assistant. Answer in 3 short bullet points at most.",
         # This Agent repeats the same retry config for clarity. In real code you
         # can keep shared defaults in RunConfig and only put per-agent overrides

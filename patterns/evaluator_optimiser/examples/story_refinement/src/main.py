@@ -20,6 +20,7 @@ from agents import Agent, ItemHelpers, Runner, TResponseInputItem, trace
 
 story_outline_generator = Agent(
     name="story_outline_generator",
+    model="gpt-6-luna",
     instructions=(
         "You generate a very short story outline based on the user's input. "
         "If there is any feedback provided, use it to improve the outline."
@@ -35,6 +36,7 @@ class EvaluationFeedback:
 
 evaluator = Agent[None](
     name="evaluator",
+    model="gpt-6-luna",
     instructions=(
         "You evaluate a story outline and decide if it's good enough. "
         "If it's not good enough, you provide feedback on what needs to be improved. "

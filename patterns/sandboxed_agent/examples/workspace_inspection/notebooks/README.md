@@ -35,4 +35,4 @@ The defaults are local Docker and remote Modal in Colab. To run live in Colab, c
 
 With `RUN_API=False`, the notebook skips token lookup and sandbox creation. Live Modal usage may incur separate charges. The notebook attempts session deletion in `finally` and sets a 300-second timeout. After a forced stop, check the Modal dashboard for remaining resources.
 
-Set `SANDBOX_BACKEND` to `docker` or `modal`. For local Modal execution, install `openai-agents[modal]==0.22.1` and configure Modal authentication. Set the model with `SANDBOX_MODEL` (default `gpt-5.6-sol`).
+Set `SANDBOX_BACKEND` to `docker` or `modal`. For local Modal execution, install `openai-agents[modal]==0.22.1` and configure Modal authentication. Set the model with `SANDBOX_MODEL` (default `gpt-6-luna`).

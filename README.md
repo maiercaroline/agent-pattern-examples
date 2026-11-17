@@ -107,7 +107,7 @@ Each example README includes its run command. From the example directory, run `p
 - **Retry or fallback** uses the official retry example. Switching to a backup model is outside its scope.
 - **Evaluator-optimiser** revises a draft using feedback. The evaluator can make mistakes and final quality varies.
 - **Sandboxed agent** defaults to local Docker or Modal in Colab. Use `SANDBOX_BACKEND` to override it. Modal requires a separate account and authentication and may incur charges in addition to model API fees. In Colab, store `MODAL_TOKEN_ID` and `MODAL_TOKEN_SECRET` in Secrets. See [sandbox setup](docs/setup.md#sandbox-example). Saving and resuming sessions are outside this example's scope.
-- The CLI preserves the upstream model names and defaults. The notebooks adjust models, iteration limits, and search counts for the exercises. Each example README explains the differences under “Notebook and CLI differences.” Confirm model access in your environment before running.
+- The CLI and notebooks default to `gpt-6-luna`. The notebooks adjust iteration limits and search counts for the exercises. Each example README explains the differences under “Notebook and CLI differences.” Confirm model access in your environment before running.
 
 ## Source code
 

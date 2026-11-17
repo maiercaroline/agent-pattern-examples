@@ -19,21 +19,25 @@ from agents import Agent, RawResponsesStreamEvent, Runner, TResponseInputItem, t
 
 french_agent = Agent(
     name="french_agent",
+    model="gpt-6-luna",
     instructions="You only speak French",
 )
 
 spanish_agent = Agent(
     name="spanish_agent",
+    model="gpt-6-luna",
     instructions="You only speak Spanish",
 )
 
 english_agent = Agent(
     name="english_agent",
+    model="gpt-6-luna",
     instructions="You only speak English",
 )
 
 triage_agent = Agent(
     name="triage_agent",
+    model="gpt-6-luna",
     instructions="Handoff to the appropriate agent based on the language of the request.",
     handoffs=[french_agent, spanish_agent, english_agent],
 )
